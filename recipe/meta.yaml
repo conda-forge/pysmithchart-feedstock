@@ -1,5 +1,5 @@
 {% set name = "pysmithchart" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pysmithchart/pysmithchart-{{ version }}.tar.gz
-  sha256: 3981914d4ac2c913c318128829ed75858c1edddd5fc68ebd752dc9321a39f937
+  sha256: f7de6e4d6a511ba2aa78227deedc1c55e9e38ce58dea2d5d530fceea6ec53dea
 
 build:
   noarch: python
